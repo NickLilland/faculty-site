@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
-    <h1>Contact</h1>
 
-    <form>
-        <label>Name:</label><br>
-        <input type="text"><br><br>
+    <header>
+        <h1>Contact Dr. Jane Smith</h1>
+    </header>
 
-        <label>Email:</label><br>
-        <input type="email"><br><br>
+    <section>
+        <h2>Contact Form</h2>
 
-        <label>Message:</label><br>
-        <textarea></textarea><br><br>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-        <button type="submit">send</button>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-    </form>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
     <a href="index.html">Back to Home</a>
+
 </body>
 </html>
